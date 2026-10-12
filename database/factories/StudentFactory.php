@@ -19,7 +19,7 @@ class StudentFactory extends Factory
     {
         return [
             'age'=> fake()->numberBetween(18,30),
-            'user_id'=> \App\Models\User::factory(),
+            'user_id'=> User::factory(),
         ];
     }
 }
