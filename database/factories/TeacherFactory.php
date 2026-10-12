@@ -24,7 +24,7 @@ class TeacherFactory extends Factory
             'Information Technology',
             'Software Engineering',
         ]),
-        'user_id' => \App\Models\User::factory(),
+        'user_id' =>User::factory(),
     ];
 }
 }
